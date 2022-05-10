@@ -1,6 +1,6 @@
 ## 우분투에 eksctl 설치하기
 
-#### 1. awscli2 설치
+## 1. awscli2 설치
 
 ##### 1-1. zip을 풀기 위해서 unzip 설치
 ```
@@ -23,7 +23,7 @@ sudo ./aws/install
 ./aws/install -i /usr/local/aws-cli -b /usr/local/bin
 ```
 
-#### 1-2. aws configure 설정
+## 2. aws configure 설정
 ```
 $ aws configure
 AWS Access Key ID [None] : [발급받은 IAM의 Access Key ID]
