@@ -20,7 +20,6 @@ sudo ./aws/install
 ./aws/install -i /usr/local/aws-cli -b /usr/local/bin
 ```
 
-
 ## 2. aws configure 설정
 ```
 $ aws configure
@@ -44,7 +43,6 @@ $ sudo mv /tmp/eksctl /usr/local/bin
 $ eksctl version
 ```
 
-
 ## 클러스터 설정 예시
 ```
 $ eksctl create cluster \
@@ -60,8 +58,6 @@ $ eksctl create cluster \
 
 - EKS 클러스터 배포시 권한 문제 이슈가 많다. 
 - EKS admin 권한을 주는 IAM 정책은 AmazonEKSAdminPolicy
-
-
 
 ## 클러스터 확인
 ```
