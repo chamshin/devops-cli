@@ -1,4 +1,6 @@
-## 1. 최신 OSS 릴리스 설치
+## 우분투에 grafana 설치하기
+
+#### 1. 최신 OSS 릴리스 설치
 ```
 $ sudo apt-get install -y apt-transport-https
 ```
@@ -9,12 +11,12 @@ $ sudo apt-get install -y software-properties-common wget
 $ wget -q -O - https://packages.grafana.com/gpg.key | sudo apt-key add -
 ```
 
-## 2. 안정적인 릴리스를 위해 레포지토리 추가
+#### 2. 안정적인 릴리스를 위해 레포지토리 추가
 ```
 $ echo "deb https://packages.grafana.com/oss/deb stable main" | sudo tee -a /etc/apt/sources.list.d/grafana.list
 ```
 
-## 3. 저장소 추가후 그라파나 설치
+#### 3. 저장소 추가후 그라파나 설치
 ```
 $ sudo apt-get update
 ```
