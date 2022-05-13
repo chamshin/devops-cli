@@ -11,7 +11,6 @@ $ sudo apt-get upgrade
 #### 2. Jenkins 설치를 위해 Repository Key 추가
 ```
 $ wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
-
 ```
 
 #### 3. 서버의 sources.list에 Jenkins 패키지 저장소를 추가
@@ -27,7 +26,7 @@ $ sudo apt-get update
 
 #### 5. Jenkins 패키지 설치
 ```
-udo apt-get install jenkins
+sudo apt-get install jenkins
 
 ```
 
