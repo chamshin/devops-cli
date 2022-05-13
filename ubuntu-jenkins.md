@@ -32,7 +32,7 @@ sudo apt-get install jenkins
 
 #### 6. Java openjdk8 설치
 ```
-$ sudo apt-get install openjdk-8-jdk
+$ sudo apt-get install openjdk-11-jdk
 
 ```
 
