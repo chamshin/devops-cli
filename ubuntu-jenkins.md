@@ -21,7 +21,6 @@ $ sudo sh -c 'echo deb https://pkg.jenkins.io/debian-stable binary/ > \
 #### 4. Java openjdk11 설치
 ```
 $ sudo apt-get install openjdk-11-jdk
-
 ```
 #### 5. 패키지 최신 버전 확인
 ```
@@ -45,5 +44,5 @@ $ sudo systemctl status jenkins
 
 #### 젠킨스 초기 비밀번호 설정
 ```
-sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+$ sudo cat /var/lib/jenkins/secrets/initialAdminPassword
 ```
