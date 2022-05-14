@@ -20,3 +20,8 @@ $ unzip awscliv2.zip
 $ sudo ./aws/install
 ./aws/install -i /usr/local/aws-cli -b /usr/local/bin
 ```
+
+#### 현재 자격증명 확인
+```
+$ aws sts get-caller-identity
+```
