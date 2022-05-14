@@ -25,3 +25,12 @@ $ sudo ./aws/install
 ```
 $ aws sts get-caller-identity
 ```
+```
+# 출력 값
+ubuntu@ip-123-123-123-123:~$ aws sts get-caller-identity
+{
+    "UserId": "XXXXXXXXXXXXXX",
+    "Account": "123456XXXXXXXXX",
+    "Arn": "arn:aws:iam::XXXXXXXXXXXXX:user/Iam-User"
+}
+```
